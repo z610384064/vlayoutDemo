@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.TabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/tabLayout"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    app:tabTextAppearance="@style/PriceFragmentTabLayoutTextStyle"
+    app:tabIndicatorColor="@color/color_0083d5"
+    app:tabTextColor="@color/color_93A5B2"
+    app:tabIndicatorHeight="3dp"
+    app:tabSelectedTextColor="@color/color_0083d5"
+    app:tabPaddingStart="24dp"
+    app:tabPaddingEnd="24dp"
+    app:tabMaxWidth="200dp"
+    android:background="@color/colorAccent"
+    app:tabMinWidth="40dp"
+    android:padding="0dp"
+    app:tabIndicatorFullWidth="false">
+
+</android.support.design.widget.TabLayout>

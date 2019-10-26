@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="windowBackground">#f8f8f8</color>
+    <color name="wihte">#ffffff</color>
+
+    <color name="color_0083d5">#0083d5</color>
+    <color name="color_93A5B2">#93A5B2</color> <!-- 行情k线tab未选中的颜色,交易界面未选中按钮颜色-->
+</resources>
