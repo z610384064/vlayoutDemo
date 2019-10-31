@@ -89,11 +89,11 @@ public class Main2Activity extends AppCompatActivity {
     private void initView() {
         mAdapters = new LinkedList<>();
         recycler=findViewById(R.id.recycler);
-//初始化
+            //初始化
         VirtualLayoutManager layoutManager = new VirtualLayoutManager(this);
         recycler.setLayoutManager(layoutManager);
 
-//设置回收复用池大小，（如果一屏内相同类型的 View 个数比较多，需要设置一个合适的大小，防止来回滚动时重新创建 View）：
+            //设置回收复用池大小，（如果一屏内相同类型的 View 个数比较多，需要设置一个合适的大小，防止来回滚动时重新创建 View）：
         RecyclerView.RecycledViewPool viewPool = new RecyclerView.RecycledViewPool();
         recycler.setRecycledViewPool(viewPool);
         viewPool.setMaxRecycledViews(0, 10);
